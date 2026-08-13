@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "project_license": "MIT",
+  "status": "unreleased-local-implementation-runtime-pending",
+  "implementation_lane": "mit-chipped-adaptation-plus-black-box-resource-interpreter",
+  "baseline": {
+    "pack": "All the Mons 1.2.0",
+    "pack_commit": "c7bb230f21d14d26859d0b92548f089b3a493ad9",
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.248",
+    "java": 21
+  },
+  "bluemap": {
+    "backport_version": "5.22-agent.backport-5.22-mc1.21.1-2",
+    "backport_commit": "9be321df995a1103808621d529eb72773e719d4d",
+    "release_jar_sha256": "749f7647fa29764cea113114a7ab3259271bab3da22720989f2bd9fd1f3ba150",
+    "declared_license": "MIT",
+    "bundled": false
+  },
+  "implementation_source": {
+    "name": "BlueMap Chipped Add-on",
+    "repository": "https://github.com/jan-guenter/bluemap-chipped-addon",
+    "tag": "v0.1.0-alpha.1",
+    "commit": "c474a82b6bfd1b4173d119cb1e053a5458167e4b",
+    "declared_license": "MIT",
+    "role": "sole implementation-code provenance; source adapted and specialized",
+    "binary_bundled": false,
+    "assets_bundled": false
+  },
+  "artifacts": {
+    "chisel": {
+      "version": "2.0.1+mc1.21.1",
+      "file_name": "chisel-neoforge-2.0.1+mc1.21.1.jar",
+      "size": 8268524,
+      "sha1": "def703bf88cb3bb2960260418e8b36fe47a53dfd",
+      "sha256": "66ae1f65374a7409af069d5ccde63a338d1754494555b3b5a00f1e862e50e2a6",
+      "sha512": "ae24678e328e33c989d1dfafa235dc6f0a05ddecaed5acf55842ec20478fab7086f4fb2f634c327bcc402857f44057cea33ded879e582d95e3ebe465748817df",
+      "curseforge_project_id": 551763,
+      "curseforge_file_id": 8288925,
+      "modrinth_project_id": "4KWv7wbN",
+      "modrinth_version_id": "4ItA9dOc",
+      "declared_license": "GPLv2 in exact NeoForge descriptor",
+      "source_use_lane": "black-box/resource-interpreter",
+      "bundled": false
+    },
+    "athena": {
+      "version": "4.0.6",
+      "file_name": "athena-neoforge-1.21.1-4.0.6.jar",
+      "size": 99944,
+      "sha1": "4bcbdf388bd5e387beca7c627224aac33584b55b",
+      "sha256": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5",
+      "sha512": "ab40a306a26ce834daae921a1e87768cd2538a4bfe27a4480f97af854084cc334e7416b1bd0b7583834a32a86951283f29fd4b1df7b98a967a6b26a3ec05e2cf",
+      "curseforge_project_id": 841890,
+      "curseforge_file_id": 8061947,
+      "curseforge_fingerprint": 669268138,
+      "modrinth_project_id": "b1ZV3DIJ",
+      "modrinth_version_id": "dJgL278E",
+      "declared_license": "MIT",
+      "source_use_lane": "artifact-format-identity-and-runtime-resources-only",
+      "bundled": false
+    }
+  },
+  "source_references": {
+    "chisel": {
+      "repository": "https://github.com/matthewperiut/Chisel-Reborn",
+      "reference": "b399d0f",
+      "status": "reference-only-source-archive-has-no-license-file-not-used"
+    }
+  },
+  "coverage": {
+    "all_chisel_blockstates": 1293,
+    "routed_blockstates": 439,
+    "ctm_blockstates": 306,
+    "giant_blockstates": 133,
+    "stock_blockstates": 854,
+    "stock_weighted_variants": 117,
+    "blockstate_resources": 439,
+    "model_resources": 439,
+    "png_resources": 2501,
+    "resource_closure_paths": 3379,
+    "role_texture_keys": 2195,
+    "animated_first_frame_keys": 5
+  },
+  "excluded_evidence": {
+    "ctm_mod_artifact": {
+      "role": "evidence-only",
+      "generator_input": false,
+      "build_dependency": false,
+      "runtime_dependency": false,
+      "activation_input": false,
+      "publication_input": false,
+      "bundled": false
+    }
+  },
+  "third_party_code_bundled": false,
+  "third_party_assets_bundled": false
+}

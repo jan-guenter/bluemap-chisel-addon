@@ -1,0 +1,8 @@
+{
+  "id": "bluemap-chisel",
+  "name": "BlueMap Chisel Add-on",
+  "entrypoint": "io.github.janguenter.bluemap.chisel.BlueMapChiselAddon",
+  "version": "${version}",
+  "dependencies": [],
+  "soft-dependencies": []
+}

@@ -1,0 +1,50 @@
+{
+  "athenaVersion": "4.0.6",
+  "chiselVersion": "2.0.1+mc1.21.1",
+  "coverage": {
+    "allChiselBlockstates": 1293,
+    "allChiselBlockstatesDigest": "4f03295eb5c1dd7b85615791de1db9d8a43f9578894dfa142443af94ac9e8926",
+    "animatedTextureCount": 5,
+    "loaderCounts": {
+      "ctm": 306,
+      "giant": 133
+    },
+    "loaderDigests": {
+      "ctm": "630d1645d31499060862d070b1857ad0b5e7f5cd1bebefd6559eee9db4eaa45e",
+      "giant": "75c76c2a474a4ca009cb88c8d4fc87c1f8e0b95e7548f02161da2725bd1c96a4"
+    },
+    "modelCount": 439,
+    "modelDigest": "a103f0db28500724e45d4144f63753b1a39ee4c0c3b1b2d429e04040a0dd765b",
+    "pngCount": 2501,
+    "resourcePathCount": 3379,
+    "roleTextureCount": 2195,
+    "roleTextureDigest": "41818f1aecfbfa2fabd5733b27c41fc6374261b0b5881ea965084d8f5f9720ca",
+    "routedBlocks": 439,
+    "routedBlocksDigest": "a8bd7f297fe1a6423fe68327b99bf3e08112f2f93bc94c52c12873c2d027f7e4",
+    "stockBlocks": 854,
+    "stockWeightedVariants": 117,
+    "stockWeightedVariantsDigest": "bb1c4209fa99e1f45152d9d83fe6ae0105943f0b364f32275efb8659694617e9"
+  },
+  "definitionCatalog": {
+    "path": "definitions.tsv",
+    "rows": 439,
+    "sha256": "3756446dc0559237732576286e9ee490b3e2bae063f2a9d6c4a22a7b1b363669"
+  },
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.248",
+  "profileId": "chisel-athena-2.0.1-4.0.6",
+  "resourceClosure": {
+    "bytes": 1093052,
+    "path": "required-resources.tsv",
+    "rows": 3379,
+    "sha256": "f8b1861ad55cd064cdefaca229bcebc40be6e03fd7e3c71839a2f2bb30279d98"
+  },
+  "runtimePolicy": {
+    "animation": "deterministic first frame; playback excluded",
+    "nonNativeAppearanceProxies": "stock fallback",
+    "pixelOverrides": "allowed when all schema and texture IDs remain exact",
+    "resourceSource": "operator-installed roots only",
+    "schemaOverrides": "deactivate the route and preserve stock rendering"
+  },
+  "schemaVersion": 1
+}

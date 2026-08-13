@@ -1,0 +1,2597 @@
+{
+  "baseline": {
+    "athena": "4.0.6",
+    "chisel": "2.0.1+mc1.21.1",
+    "minecraft": "1.21.1",
+    "pack": "All the Mons 1.2.0"
+  },
+  "logical_case_count": 478,
+  "routed_swatch_count": 439,
+  "schema_version": 1,
+  "stock_control_count": 2,
+  "stock_controls": [
+    {
+      "block": "chisel:braid/coal_block",
+      "expected_route": "stock-control",
+      "x": 9,
+      "y": 100,
+      "z": 2
+    },
+    {
+      "block": "minecraft:stone",
+      "expected_route": "stock-control",
+      "x": 12,
+      "y": 100,
+      "z": 2
+    }
+  ],
+  "structural_case_count": 37,
+  "structural_cases": [
+    {
+      "anchor": {
+        "x": -72,
+        "y": 100,
+        "z": -34
+      },
+      "case_id": "ctm-3x3-00",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:bubble/glass",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:bubble/glass",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:bubble/glass",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:bubble/glass",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:bubble/glass",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:bubble/glass",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:bubble/glass",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:bubble/glass",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:bubble/glass",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -33
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -63,
+        "y": 100,
+        "z": -34
+      },
+      "case_id": "ctm-3x3-01",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:chrono/glass",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:chrono/glass",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:chrono/glass",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:chrono/glass",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:chrono/glass",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:chrono/glass",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:chrono/glass",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:chrono/glass",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:chrono/glass",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -33
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -54,
+        "y": 100,
+        "z": -34
+      },
+      "case_id": "ctm-3x3-02",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:light/glass",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:light/glass",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:light/glass",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:light/glass",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:light/glass",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:light/glass",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:light/glass",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:light/glass",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:light/glass",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -33
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -45,
+        "y": 100,
+        "z": -34
+      },
+      "case_id": "ctm-3x3-03",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:noborder/glass",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:noborder/glass",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:noborder/glass",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:noborder/glass",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:noborder/glass",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:noborder/glass",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:noborder/glass",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:noborder/glass",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:noborder/glass",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -33
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -36,
+        "y": 100,
+        "z": -34
+      },
+      "case_id": "ctm-3x3-04",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:ornatesteel/glass",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:ornatesteel/glass",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:ornatesteel/glass",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:ornatesteel/glass",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:ornatesteel/glass",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:ornatesteel/glass",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:ornatesteel/glass",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:ornatesteel/glass",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:ornatesteel/glass",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -33
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -27,
+        "y": 100,
+        "z": -34
+      },
+      "case_id": "ctm-3x3-05",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:shale/glass",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:shale/glass",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:shale/glass",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:shale/glass",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:shale/glass",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:shale/glass",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:shale/glass",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:shale/glass",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:shale/glass",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -33
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -18,
+        "y": 100,
+        "z": -34
+      },
+      "case_id": "ctm-3x3-06",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:steelframe/glass",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:steelframe/glass",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:steelframe/glass",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:steelframe/glass",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:steelframe/glass",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:steelframe/glass",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:steelframe/glass",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:steelframe/glass",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:steelframe/glass",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -33
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -9,
+        "y": 100,
+        "z": -34
+      },
+      "case_id": "ctm-3x3-07",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:stone/glass",
+          "expected_route": "custom",
+          "x": -10,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:stone/glass",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:stone/glass",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -35
+        },
+        {
+          "block": "chisel:stone/glass",
+          "expected_route": "custom",
+          "x": -10,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:stone/glass",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:stone/glass",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -34
+        },
+        {
+          "block": "chisel:stone/glass",
+          "expected_route": "custom",
+          "x": -10,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:stone/glass",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -33
+        },
+        {
+          "block": "chisel:stone/glass",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -33
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -72,
+        "y": 100,
+        "z": -25
+      },
+      "case_id": "ctm-3x3-08",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:circular/ice",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:circular/ice",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:circular/ice",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:circular/ice",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:circular/ice",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:circular/ice",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:circular/ice",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:circular/ice",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:circular/ice",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -24
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -63,
+        "y": 100,
+        "z": -25
+      },
+      "case_id": "ctm-3x3-09",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:dent/ice",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:dent/ice",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:dent/ice",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:dent/ice",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:dent/ice",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:dent/ice",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:dent/ice",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:dent/ice",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:dent/ice",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -24
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -54,
+        "y": 100,
+        "z": -25
+      },
+      "case_id": "ctm-3x3-10",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:encased_bricks/ice",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:encased_bricks/ice",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:encased_bricks/ice",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:encased_bricks/ice",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:encased_bricks/ice",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:encased_bricks/ice",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:encased_bricks/ice",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:encased_bricks/ice",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:encased_bricks/ice",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -24
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -45,
+        "y": 100,
+        "z": -25
+      },
+      "case_id": "ctm-3x3-11",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:large_tile/ice",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:large_tile/ice",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:large_tile/ice",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:large_tile/ice",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:large_tile/ice",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:large_tile/ice",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:large_tile/ice",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:large_tile/ice",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:large_tile/ice",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -24
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -36,
+        "y": 100,
+        "z": -25
+      },
+      "case_id": "ctm-3x3-12",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:mosaic/ice",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:mosaic/ice",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:mosaic/ice",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:mosaic/ice",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:mosaic/ice",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:mosaic/ice",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:mosaic/ice",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:mosaic/ice",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:mosaic/ice",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -24
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -27,
+        "y": 100,
+        "z": -25
+      },
+      "case_id": "ctm-3x3-13",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:weaver/ice",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:weaver/ice",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:weaver/ice",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:weaver/ice",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:weaver/ice",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:weaver/ice",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:weaver/ice",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:weaver/ice",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:weaver/ice",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -24
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -18,
+        "y": 100,
+        "z": -25
+      },
+      "case_id": "ctm-3x3-14",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:log_bordered/crimson_planks",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:log_bordered/crimson_planks",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:log_bordered/crimson_planks",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:log_bordered/crimson_planks",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:log_bordered/crimson_planks",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:log_bordered/crimson_planks",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:log_bordered/crimson_planks",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:log_bordered/crimson_planks",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:log_bordered/crimson_planks",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -24
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -9,
+        "y": 100,
+        "z": -25
+      },
+      "case_id": "ctm-3x3-15",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:array/diorite",
+          "expected_route": "custom",
+          "x": -10,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:array/diorite",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:array/diorite",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -26
+        },
+        {
+          "block": "chisel:array/diorite",
+          "expected_route": "custom",
+          "x": -10,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:array/diorite",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:array/diorite",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -25
+        },
+        {
+          "block": "chisel:array/diorite",
+          "expected_route": "custom",
+          "x": -10,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:array/diorite",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -24
+        },
+        {
+          "block": "chisel:array/diorite",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -24
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -72,
+        "y": 100,
+        "z": -16
+      },
+      "case_id": "ctm-3x3-16",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:array/granite",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:array/granite",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:array/granite",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:array/granite",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:array/granite",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:array/granite",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:array/granite",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:array/granite",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:array/granite",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -15
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -63,
+        "y": 100,
+        "z": -16
+      },
+      "case_id": "ctm-3x3-17",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:braid/acacia_planks",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/acacia_planks",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/acacia_planks",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/acacia_planks",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/acacia_planks",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/acacia_planks",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/acacia_planks",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/acacia_planks",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/acacia_planks",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -15
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -54,
+        "y": 100,
+        "z": -16
+      },
+      "case_id": "ctm-3x3-18",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:braid/birch_planks",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/birch_planks",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/birch_planks",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/birch_planks",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/birch_planks",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/birch_planks",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/birch_planks",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/birch_planks",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/birch_planks",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -15
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -45,
+        "y": 100,
+        "z": -16
+      },
+      "case_id": "ctm-3x3-19",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:braid/crimson_planks",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/crimson_planks",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/crimson_planks",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/crimson_planks",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/crimson_planks",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/crimson_planks",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/crimson_planks",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/crimson_planks",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/crimson_planks",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -15
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -36,
+        "y": 100,
+        "z": -16
+      },
+      "case_id": "ctm-3x3-20",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:braid/dark_oak_planks",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/dark_oak_planks",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/dark_oak_planks",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/dark_oak_planks",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/dark_oak_planks",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/dark_oak_planks",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/dark_oak_planks",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/dark_oak_planks",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/dark_oak_planks",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -15
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -27,
+        "y": 100,
+        "z": -16
+      },
+      "case_id": "ctm-3x3-21",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:braid/jungle_planks",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/jungle_planks",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/jungle_planks",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/jungle_planks",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/jungle_planks",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/jungle_planks",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/jungle_planks",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/jungle_planks",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/jungle_planks",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -15
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -18,
+        "y": 100,
+        "z": -16
+      },
+      "case_id": "ctm-3x3-22",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:braid/oak_planks",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/oak_planks",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/oak_planks",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/oak_planks",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/oak_planks",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/oak_planks",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/oak_planks",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/oak_planks",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/oak_planks",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -15
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -9,
+        "y": 100,
+        "z": -16
+      },
+      "case_id": "ctm-3x3-23",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:braid/spruce_planks",
+          "expected_route": "custom",
+          "x": -10,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/spruce_planks",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/spruce_planks",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -17
+        },
+        {
+          "block": "chisel:braid/spruce_planks",
+          "expected_route": "custom",
+          "x": -10,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/spruce_planks",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/spruce_planks",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -16
+        },
+        {
+          "block": "chisel:braid/spruce_planks",
+          "expected_route": "custom",
+          "x": -10,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/spruce_planks",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -15
+        },
+        {
+          "block": "chisel:braid/spruce_planks",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -15
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -72,
+        "y": 100,
+        "z": -7
+      },
+      "case_id": "ctm-3x3-24",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:circular/andesite",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/andesite",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/andesite",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/andesite",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/andesite",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/andesite",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/andesite",
+          "expected_route": "custom",
+          "x": -73,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/andesite",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/andesite",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": -6
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -63,
+        "y": 100,
+        "z": -7
+      },
+      "case_id": "ctm-3x3-25",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:circular/black_concrete",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/black_concrete",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/black_concrete",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/black_concrete",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/black_concrete",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/black_concrete",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/black_concrete",
+          "expected_route": "custom",
+          "x": -64,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/black_concrete",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/black_concrete",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": -6
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -54,
+        "y": 100,
+        "z": -7
+      },
+      "case_id": "ctm-3x3-26",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:circular/blue_concrete",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/blue_concrete",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/blue_concrete",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/blue_concrete",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/blue_concrete",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/blue_concrete",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/blue_concrete",
+          "expected_route": "custom",
+          "x": -55,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/blue_concrete",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/blue_concrete",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": -6
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -45,
+        "y": 100,
+        "z": -7
+      },
+      "case_id": "ctm-3x3-27",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:circular/bricks",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/bricks",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/bricks",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/bricks",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/bricks",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/bricks",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/bricks",
+          "expected_route": "custom",
+          "x": -46,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/bricks",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/bricks",
+          "expected_route": "custom",
+          "x": -44,
+          "y": 100,
+          "z": -6
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -36,
+        "y": 100,
+        "z": -7
+      },
+      "case_id": "ctm-3x3-28",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:circular/brown_concrete",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/brown_concrete",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/brown_concrete",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/brown_concrete",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/brown_concrete",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/brown_concrete",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/brown_concrete",
+          "expected_route": "custom",
+          "x": -37,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/brown_concrete",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/brown_concrete",
+          "expected_route": "custom",
+          "x": -35,
+          "y": 100,
+          "z": -6
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -27,
+        "y": 100,
+        "z": -7
+      },
+      "case_id": "ctm-3x3-29",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:circular/coal_block",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/coal_block",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/coal_block",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/coal_block",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/coal_block",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/coal_block",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/coal_block",
+          "expected_route": "custom",
+          "x": -28,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/coal_block",
+          "expected_route": "custom",
+          "x": -27,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/coal_block",
+          "expected_route": "custom",
+          "x": -26,
+          "y": 100,
+          "z": -6
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -18,
+        "y": 100,
+        "z": -7
+      },
+      "case_id": "ctm-3x3-30",
+      "family": "ctm",
+      "notes": "3x3 all-neighbor, seam, culling, and transparency witness",
+      "placements": [
+        {
+          "block": "chisel:circular/cobblestone",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/cobblestone",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/cobblestone",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -8
+        },
+        {
+          "block": "chisel:circular/cobblestone",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/cobblestone",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/cobblestone",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:circular/cobblestone",
+          "expected_route": "custom",
+          "x": -19,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/cobblestone",
+          "expected_route": "custom",
+          "x": -18,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:circular/cobblestone",
+          "expected_route": "custom",
+          "x": -17,
+          "y": 100,
+          "z": -6
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -9,
+        "y": 100,
+        "z": -7
+      },
+      "case_id": "giant-2x2-array-andesite-xz",
+      "family": "giant",
+      "notes": "2x2 XZ coordinate-phase and mirroring witness",
+      "placements": [
+        {
+          "block": "chisel:array/andesite",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:array/andesite",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -7
+        },
+        {
+          "block": "chisel:array/andesite",
+          "expected_route": "custom",
+          "x": -9,
+          "y": 100,
+          "z": -6
+        },
+        {
+          "block": "chisel:array/andesite",
+          "expected_route": "custom",
+          "x": -8,
+          "y": 100,
+          "z": -6
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -72,
+        "y": 100,
+        "z": 2
+      },
+      "case_id": "giant-2x2-array-ice-xz",
+      "family": "giant",
+      "notes": "2x2 XZ coordinate-phase and mirroring witness",
+      "placements": [
+        {
+          "block": "chisel:array/ice",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": 2
+        },
+        {
+          "block": "chisel:array/ice",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": 2
+        },
+        {
+          "block": "chisel:array/ice",
+          "expected_route": "custom",
+          "x": -72,
+          "y": 100,
+          "z": 3
+        },
+        {
+          "block": "chisel:array/ice",
+          "expected_route": "custom",
+          "x": -71,
+          "y": 100,
+          "z": 3
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -63,
+        "y": 100,
+        "z": 2
+      },
+      "case_id": "giant-2x2-jellybean-cobblestone-xy",
+      "family": "giant",
+      "notes": "2x2 XY coordinate-phase and mirroring witness",
+      "placements": [
+        {
+          "block": "chisel:jellybean/cobblestone",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 100,
+          "z": 2
+        },
+        {
+          "block": "chisel:jellybean/cobblestone",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 100,
+          "z": 2
+        },
+        {
+          "block": "chisel:jellybean/cobblestone",
+          "expected_route": "custom",
+          "x": -63,
+          "y": 101,
+          "z": 2
+        },
+        {
+          "block": "chisel:jellybean/cobblestone",
+          "expected_route": "custom",
+          "x": -62,
+          "y": 101,
+          "z": 2
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -54,
+        "y": 100,
+        "z": 2
+      },
+      "case_id": "giant-2x2-jellybean-ice-xy",
+      "family": "giant",
+      "notes": "2x2 XY coordinate-phase and mirroring witness",
+      "placements": [
+        {
+          "block": "chisel:jellybean/ice",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 100,
+          "z": 2
+        },
+        {
+          "block": "chisel:jellybean/ice",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 100,
+          "z": 2
+        },
+        {
+          "block": "chisel:jellybean/ice",
+          "expected_route": "custom",
+          "x": -54,
+          "y": 101,
+          "z": 2
+        },
+        {
+          "block": "chisel:jellybean/ice",
+          "expected_route": "custom",
+          "x": -53,
+          "y": 101,
+          "z": 2
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -45,
+        "y": 100,
+        "z": 2
+      },
+      "case_id": "giant-2x2-slant-quartz-yz",
+      "family": "giant",
+      "notes": "2x2 YZ coordinate-phase and mirroring witness",
+      "placements": [
+        {
+          "block": "chisel:slant/quartz",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": 2
+        },
+        {
+          "block": "chisel:slant/quartz",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 101,
+          "z": 2
+        },
+        {
+          "block": "chisel:slant/quartz",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 100,
+          "z": 3
+        },
+        {
+          "block": "chisel:slant/quartz",
+          "expected_route": "custom",
+          "x": -45,
+          "y": 101,
+          "z": 3
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": -36,
+        "y": 100,
+        "z": 2
+      },
+      "case_id": "giant-2x2-zag-ice-yz",
+      "family": "giant",
+      "notes": "2x2 YZ coordinate-phase and mirroring witness",
+      "placements": [
+        {
+          "block": "chisel:zag/ice",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": 2
+        },
+        {
+          "block": "chisel:zag/ice",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 101,
+          "z": 2
+        },
+        {
+          "block": "chisel:zag/ice",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 100,
+          "z": 3
+        },
+        {
+          "block": "chisel:zag/ice",
+          "expected_route": "custom",
+          "x": -36,
+          "y": 101,
+          "z": 3
+        }
+      ]
+    }
+  ],
+  "verified_placement_count": 744
+}
