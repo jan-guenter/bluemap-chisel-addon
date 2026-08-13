@@ -1,0 +1,40 @@
+case_id	family	x	y	z	placements	notes
+ctm-3x3-00	ctm	-72	100	-34	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-01	ctm	-63	100	-34	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-02	ctm	-54	100	-34	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-03	ctm	-45	100	-34	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-04	ctm	-36	100	-34	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-05	ctm	-27	100	-34	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-06	ctm	-18	100	-34	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-07	ctm	-9	100	-34	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-08	ctm	-72	100	-25	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-09	ctm	-63	100	-25	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-10	ctm	-54	100	-25	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-11	ctm	-45	100	-25	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-12	ctm	-36	100	-25	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-13	ctm	-27	100	-25	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-14	ctm	-18	100	-25	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-15	ctm	-9	100	-25	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-16	ctm	-72	100	-16	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-17	ctm	-63	100	-16	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-18	ctm	-54	100	-16	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-19	ctm	-45	100	-16	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-20	ctm	-36	100	-16	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-21	ctm	-27	100	-16	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-22	ctm	-18	100	-16	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-23	ctm	-9	100	-16	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-24	ctm	-72	100	-7	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-25	ctm	-63	100	-7	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-26	ctm	-54	100	-7	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-27	ctm	-45	100	-7	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-28	ctm	-36	100	-7	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-29	ctm	-27	100	-7	9	3x3 all-neighbor, seam, culling, and transparency witness
+ctm-3x3-30	ctm	-18	100	-7	9	3x3 all-neighbor, seam, culling, and transparency witness
+giant-2x2-array-andesite-xz	giant	-9	100	-7	4	2x2 XZ coordinate-phase and mirroring witness
+giant-2x2-array-ice-xz	giant	-72	100	2	4	2x2 XZ coordinate-phase and mirroring witness
+giant-2x2-jellybean-cobblestone-xy	giant	-63	100	2	4	2x2 XY coordinate-phase and mirroring witness
+giant-2x2-jellybean-ice-xy	giant	-54	100	2	4	2x2 XY coordinate-phase and mirroring witness
+giant-2x2-slant-quartz-yz	giant	-45	100	2	4	2x2 YZ coordinate-phase and mirroring witness
+giant-2x2-zag-ice-yz	giant	-36	100	2	4	2x2 YZ coordinate-phase and mirroring witness
+stock-0	stock	9	100	2	1	stock renderer control: chisel:braid/coal_block
+stock-1	stock	12	100	2	1	stock renderer control: minecraft:stone

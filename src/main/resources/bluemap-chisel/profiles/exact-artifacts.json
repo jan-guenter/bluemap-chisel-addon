@@ -1,0 +1,48 @@
+{
+  "artifacts": [
+    {
+      "curseForgeFileId": 8288925,
+      "curseForgeProjectId": 551763,
+      "filename": "chisel-neoforge-2.0.1+mc1.21.1.jar",
+      "licenseDeclaration": "GPLv2 in exact NeoForge descriptor",
+      "metadataVersion": "2.0.1+mc1.21.1",
+      "modId": "chisel",
+      "modrinthProjectId": "4KWv7wbN",
+      "modrinthVersionId": "4ItA9dOc",
+      "sha1": "def703bf88cb3bb2960260418e8b36fe47a53dfd",
+      "sha256": "66ae1f65374a7409af069d5ccde63a338d1754494555b3b5a00f1e862e50e2a6",
+      "sha512": "ae24678e328e33c989d1dfafa235dc6f0a05ddecaed5acf55842ec20478fab7086f4fb2f634c327bcc402857f44057cea33ded879e582d95e3ebe465748817df",
+      "sizeBytes": 8268524,
+      "sourceUseLane": "black-box/resource-interpreter",
+      "verificationRole": "consumer-resource-owner"
+    },
+    {
+      "curseForgeFileId": 8061947,
+      "curseForgeFingerprint": 669268138,
+      "curseForgeProjectId": 841890,
+      "filename": "athena-neoforge-1.21.1-4.0.6.jar",
+      "license": "MIT",
+      "metadataVersion": "4.0.6",
+      "modId": "athena",
+      "modrinthProjectId": "b1ZV3DIJ",
+      "modrinthVersionId": "dJgL278E",
+      "sha1": "4bcbdf388bd5e387beca7c627224aac33584b55b",
+      "sha256": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5",
+      "sha512": "ab40a306a26ce834daae921a1e87768cd2538a4bfe27a4480f97af854084cc334e7416b1bd0b7583834a32a86951283f29fd4b1df7b98a967a6b26a3ec05e2cf",
+      "sizeBytes": 99944,
+      "verificationRole": "renderer-format-identity"
+    }
+  ],
+  "baseline": {
+    "java": 21,
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.248",
+    "packRepositoryCommit": "c7bb230f21d14d26859d0b92548f089b3a493ad9",
+    "packVersion": "1.2.0"
+  },
+  "requiredForStaticRendering": [
+    "chisel",
+    "athena"
+  ],
+  "schemaVersion": 1
+}
