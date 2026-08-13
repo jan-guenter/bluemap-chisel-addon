@@ -1,6 +1,6 @@
 # Chisel staging gallery
 
-This deterministic datapack defines the pending exact-profile runtime census:
+This deterministic datapack defines the accepted exact-profile runtime census:
 
 - 439 isolated, two-block-spaced swatches—one for every routed Chisel ID;
 - 31 CTM 3×3 structures (279 placements), spanning opaque, glass, ice, and
@@ -24,6 +24,13 @@ placement must retain its exact expected block ID and `#failures
 chisel_gallery` must be zero. The datapack contains only IDs, coordinates,
 commands, and metadata; it bundles no Chisel or Athena assets.
 
-Status: runtime execution, BlueMap rendering, agent-browser sanity checking,
-and owner visual acceptance are pending. Do not treat deterministic generation
-as a completed staging result.
+Status: the initial build/verify and persisted verifier after one clean
+same-pod restart both completed with exact scores of 439 swatches, 37
+structures, two controls, 744 checked placements, and zero failures. The
+canonical 442,043-byte raw-render audit (SHA-256
+`422ed5738e7807a893247c9ea395b168e2e22bb6fd5261056d8c20978f0677d4`)
+passed, the exact external view passed the lightweight agent-browser sanity
+check, and the owner accepted the visuals on 2026-08-13. These results apply
+only to the 249,972-byte CI JAR with SHA-256
+`053e048f9332094571b25b2edc5ddb9a172e1f89c0a65c2f7ceb05e4a946510e`
+at commit `97801303993ebd6e9ad718c94c6bc6a9a7376060`.

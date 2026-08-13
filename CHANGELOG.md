@@ -13,8 +13,19 @@
 - Adapt the owner-authored MIT BlueMap Chipped renderer foundation into
   collision-safe Chisel-specific IDs, exact activation, atomic stock fallback,
   and a plain BlueMap packaging boundary.
-- Define a pending deterministic staging gallery with 478 logical cases and
-  744 verified placements.
+- Add a deterministic staging gallery with 478 logical cases and 744 verified
+  placements.
+- Pass the authoritative pull-request CI gate at commit
+  `97801303993ebd6e9ad718c94c6bc6a9a7376060` (tree
+  `2e422c0efda8b7e8484f6bce84cc20460cbcae55`) and accept its exact 249,972-byte
+  production JAR, SHA-256
+  `053e048f9332094571b25b2edc5ddb9a172e1f89c0a65c2f7ceb05e4a946510e`.
+- Pass the initial and persisted-restart gallery verifiers with exact scores
+  439/37/2/744/0 for swatches/structures/controls/checked/failures.
+- Pass the 442,043-byte canonical raw-render audit, SHA-256
+  `422ed5738e7807a893247c9ea395b168e2e22bb6fd5261056d8c20978f0677d4`,
+  and the lightweight agent-browser sanity check.
+- Record owner visual acceptance of the exact candidate on 2026-08-13.
 
-No runtime, owner-acceptance, publication, release-JAR, or release-checksum
-claim has been made for this implementation.
+Publication and immutable release identity remain pending; this section records
+the accepted release candidate, not a published release.

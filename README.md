@@ -5,9 +5,16 @@ the Chisel build shipped by All the Mons 1.2.0.
 
 ## Status and compatibility
 
-This repository is an **unreleased local implementation**. Its working version
-is `0.1.0-alpha.1`; clean CI, runtime staging, browser sanity checking, owner
-visual acceptance, publication, and release identity are still pending.
+Version `0.1.0-alpha.1` is an **owner-accepted release candidate**. Pull-request
+CI, the isolated runtime lifecycle, the canonical raw-render audit, the agent
+browser sanity check, and owner visual acceptance all succeeded on 2026-08-13.
+Publication and immutable release identity are still pending.
+
+The accepted candidate is commit
+`97801303993ebd6e9ad718c94c6bc6a9a7376060` (tree
+`2e422c0efda8b7e8484f6bce84cc20460cbcae55`). Its authoritative CI production
+JAR is 249,972 bytes with SHA-256
+`053e048f9332094571b25b2edc5ddb9a172e1f89c0a65c2f7ceb05e4a946510e`.
 
 The only supported input tuple is:
 
@@ -61,10 +68,18 @@ map color before delegating to the original renderer. Live appearance/camo
 proxies, NBT, block entities, and frequently changing presentation state are
 out of scope.
 
-The deterministic staging gallery is planned for 478 logical cases and 744
-verified placements: 439 routed swatches, 31 CTM 3×3 structures, six giant
-2×2 structures, and two stock controls. Those figures are a pending gate, not
-a completed runtime result.
+The deterministic staging gallery completed 478 logical cases and 744 verified
+placements: 439 routed swatches, 31 CTM 3×3 structures, six giant 2×2
+structures, and two stock controls. Both the initial build/verify and the
+persisted same-pod restart verifier reported exact scores of 439 swatches, 37
+structures, two controls, 744 checked placements, and zero failures.
+
+The canonical raw-render audit was 442,043 bytes with SHA-256
+`422ed5738e7807a893247c9ea395b168e2e22bb6fd5261056d8c20978f0677d4`.
+It passed the bounded geometry, CTM, giant-role, transparent glass/ice,
+first-frame animation, material, and stock-control checks. The exact external
+`#chisel_staging` view passed the required lightweight agent-browser sanity
+check before the owner accepted its visuals on 2026-08-13.
 
 See [coverage](docs/COVERAGE.md), [architecture](docs/ARCHITECTURE.md),
 [compatibility](docs/COMPATIBILITY.md), [provenance](docs/PROVENANCE.md), and

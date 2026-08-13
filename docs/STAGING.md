@@ -1,7 +1,30 @@
 # Single staging gate
 
-Status: **pending**. No Chisel runtime, browser, or owner-acceptance result has
-been recorded for this implementation.
+Status: **accepted on 2026-08-13** for the exact candidate below. Publication
+and immutable release identity remain separate gates.
+
+## Accepted result
+
+- Candidate commit:
+  `97801303993ebd6e9ad718c94c6bc6a9a7376060`; tree
+  `2e422c0efda8b7e8484f6bce84cc20460cbcae55`.
+- Authoritative pull-request CI production JAR: 249,972 bytes; SHA-256
+  `053e048f9332094571b25b2edc5ddb9a172e1f89c0a65c2f7ceb05e4a946510e`.
+- Initial build/verify scores: 439 swatches, 37 structures, two controls, 744
+  checked placements, zero failures.
+- Persisted verifier scores after one clean same-pod restart: 439 swatches, 37
+  structures, two controls, 744 checked placements, zero failures.
+- Canonical raw-render audit: 442,043 bytes; SHA-256
+  `422ed5738e7807a893247c9ea395b168e2e22bb6fd5261056d8c20978f0677d4`.
+  The bounded geometry, CTM, giant-role/phase, transparent glass/ice,
+  deterministic animation-frame, material, and stock-control checks passed.
+- The exact external `#chisel_staging` view loaded without an obvious blank,
+  black, missing, or grossly broken result in the agent browser before it was
+  presented for inspection.
+- The owner explicitly accepted that candidate and view on 2026-08-13.
+
+The following procedure remains the reproducible lifecycle for this accepted
+result.
 
 Reuse the disposable Minecraft/BlueMap server and PVC. Install the exact All
 the Mons 1.2.0 Chisel/Athena pair and only the candidate add-on under review in
@@ -61,7 +84,6 @@ Run one enabled lifecycle:
 6. Record owner visual acceptance only after the owner explicitly accepts the
    exact candidate JAR and view.
 
-After acceptance, record the candidate JAR size/digests, CI identity, gallery
-result, restart result, render audit, browser sanity check, and acceptance date
-in release documentation. Until then, do not add an accepted-result section or
-claim the implementation is released.
+The accepted result above is evidence for this exact candidate only. A rebuilt
+or changed JAR requires a new byte-identity check; a changed supported input
+tuple requires a fresh staging and owner-review cycle.

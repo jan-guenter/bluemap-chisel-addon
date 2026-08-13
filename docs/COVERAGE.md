@@ -51,7 +51,7 @@ blocks. Culling and occlusion stay alpha-sensitive.
 The first four keys are active CTM roles; the fifth is the base-model texture.
 Animation playback, interpolation, and time-dependent frames are excluded.
 
-## Pending deterministic gallery
+## Accepted deterministic gallery
 
 The staging contract contains 478 logical cases and 744 placements:
 
@@ -63,10 +63,19 @@ The staging contract contains 478 logical cases and 744 placements:
 | Stock controls | 2 | 2 |
 | **Total** | **478** | **744** |
 
+The exact gallery completed its initial build/verify and its verifier again
+after a clean same-pod restart. Both passes reported 439 swatches, 37
+structures, two controls, 744 checked placements, and zero failures. The
+canonical raw-render audit was 442,043 bytes with SHA-256
+`422ed5738e7807a893247c9ea395b168e2e22bb6fd5261056d8c20978f0677d4`;
+it passed its bounded geometry, CTM, giant, transparency, deterministic
+first-frame, material, and stock-control checks.
+
 The unit/static test contract includes all 256 CTM masks on all faces, giant
 phase behavior on both sides of zero, transparency, cave/surface emission,
 lighting, atomic fallback, registry collisions, and the 117 weighted stock
-controls. The gallery and test contracts do not constitute runtime acceptance.
+controls. The runtime render passed the lightweight agent-browser sanity check
+and received owner visual acceptance on 2026-08-13.
 
 Transient presentation state, animation playback, block entities, NBT,
 displayed contents, live cross-mod appearance proxies, and generalized
