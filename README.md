@@ -85,6 +85,26 @@ See [coverage](docs/COVERAGE.md), [architecture](docs/ARCHITECTURE.md),
 [compatibility](docs/COMPATIBILITY.md), [provenance](docs/PROVENANCE.md), and
 the [staging gate](docs/STAGING.md).
 
+## Clone
+
+Clone the toolkit submodule with the add-on:
+
+```bash
+git clone --recurse-submodules \
+  https://github.com/jan-guenter/bluemap-chisel-addon.git
+```
+
+Initialize it in an existing clone before running Gradle:
+
+```bash
+git submodule update --init --recursive -- tooling/bluemap-addon-toolkit
+```
+
+The submodule supplies the Gradle convention source. It pins
+`bluemap-addon-toolkit` `v0.2.0-alpha.1` at commit
+`f58da04567f10efe615c582797f3ab00b7a7343f`; it is build tooling and is not
+packaged in the add-on JAR.
+
 ## Authoritative review gate
 
 Use Java 21 and the exact sibling BlueMap checkout. Supply the two exact
