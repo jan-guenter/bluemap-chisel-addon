@@ -101,8 +101,8 @@ git submodule update --init --recursive -- tooling/bluemap-addon-toolkit
 ```
 
 The submodule supplies the Gradle convention source. It pins
-`bluemap-addon-toolkit` `v0.2.0-alpha.1` at commit
-`f58da04567f10efe615c582797f3ab00b7a7343f`; it is build tooling and is not
+`bluemap-addon-toolkit` `v0.3.0-alpha.1` at commit
+`6cd34a8368cc4ee8628fbe830a90ec5b14960629`; it is build tooling and is not
 packaged in the add-on JAR.
 
 ## Authoritative review gate
