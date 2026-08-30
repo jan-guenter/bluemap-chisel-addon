@@ -13,6 +13,7 @@ not part of the root orchestration repository.
 | BlueMap | backport `5.22-agent.backport-5.22-mc1.21.1-2`, commit `9be321df995a1103808621d529eb72773e719d4d` |
 | Chisel | `2.0.1+mc1.21.1`, 8,268,524 bytes, SHA-256 `66ae1f65374a7409af069d5ccde63a338d1754494555b3b5a00f1e862e50e2a6` |
 | Athena | `4.0.6`, 99,944 bytes, SHA-256 `43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5` |
+| Athena model source module | `0.1.0-alpha.1`, commit `4a503a63f7f10b7c414c6c1228207a5ba00bfd54`, source tree `882689c2f9a0875547f4e30aefd68659103d5046` |
 
 A new pack, BlueMap build, or either changed artifact starts a fresh evidence,
 implementation, and visual-review task.
@@ -43,6 +44,10 @@ implementation, and visual-review task.
   `v0.1.0-alpha.1`, commit
   `c474a82b6bfd1b4173d119cb1e053a5458167e4b`. Do not copy or adapt Chisel or
   Athena source, classes, models, textures, captures, or meshes.
+- Compile the four pure Athena connection and face classes from the exact
+  released source module. Keep the Chisel emitter, profile, admission, routing,
+  first-frame texture path, and fallback local. Never install or nest the
+  module JAR.
 
 ## Validation cadence
 
@@ -50,6 +55,8 @@ Develop in one coherent tranche. Pull-request CI is the authoritative clean
 gate; do not repeat it locally after small edits:
 
 ```bash
+git submodule update --init --recursive -- \
+  tooling/bluemap-addon-toolkit modules/bluemap-athena-resource-models
 gradle --no-daemon \
   -PchiselJar=/absolute/path/chisel-neoforge-2.0.1+mc1.21.1.jar \
   -PathenaJar=/absolute/path/athena-neoforge-1.21.1-4.0.6.jar \

@@ -4,7 +4,8 @@
 
 | Component | Use | Exact identity | License | Binary/assets bundled |
 | --- | --- | --- | --- | --- |
-| BlueMap Chipped Add-on | Sole implementation-code provenance; MIT source adapted and specialized for Chisel | `https://github.com/jan-guenter/bluemap-chipped-addon`, tag `v0.1.0-alpha.1`, commit `c474a82b6bfd1b4173d119cb1e053a5458167e4b` | MIT | No |
+| BlueMap Chipped Add-on | Implementation-code origin outside the extracted pure model classes; MIT source adapted and specialized for Chisel | `https://github.com/jan-guenter/bluemap-chipped-addon`, tag `v0.1.0-alpha.1`, commit `c474a82b6bfd1b4173d119cb1e053a5458167e4b` | MIT | No |
+| BlueMap Athena Resource Models | First-party pure connection and face model source | `0.1.0-alpha.1`, commit `4a503a63f7f10b7c414c6c1228207a5ba00bfd54`, source tree `882689c2f9a0875547f4e30aefd68659103d5046` | MIT | Four sources compile into this add-on; no module JAR |
 
 ## Runtime, evidence, and build components
 

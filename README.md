@@ -5,16 +5,23 @@ the Chisel build shipped by All the Mons 1.2.0.
 
 ## Status and compatibility
 
-Version `0.1.0-alpha.1` is an **owner-accepted release candidate**. Pull-request
-CI, the isolated runtime lifecycle, the canonical raw-render audit, the agent
-browser sanity check, and owner visual acceptance all succeeded on 2026-08-13.
-Publication and immutable release identity are still pending.
+Version `0.1.0-alpha.2` is the source-consolidation candidate for the same
+owner-accepted exact tuple. Version `0.1.0-alpha.1` remains the released visual
+baseline. Pull-request CI, the isolated runtime lifecycle, the canonical
+raw-render audit, the agent browser sanity check, and owner visual acceptance
+all succeeded on 2026-08-13.
 
 The accepted candidate is commit
 `97801303993ebd6e9ad718c94c6bc6a9a7376060` (tree
 `2e422c0efda8b7e8484f6bce84cc20460cbcae55`). Its authoritative CI production
 JAR is 249,972 bytes with SHA-256
 `053e048f9332094571b25b2edc5ddb9a172e1f89c0a65c2f7ceb05e4a946510e`.
+
+The candidate changes source ownership only. It compiles the four pure Athena
+connection and face classes from the released, commit-pinned
+`bluemap-athena-resource-models` `0.1.0-alpha.1` source module. The emitter,
+exact profile, resource admission, collision isolation, routing, fallback, and
+first-frame texture behavior remain local and unchanged.
 
 The only supported input tuple is:
 
@@ -97,13 +104,16 @@ git clone --recurse-submodules \
 Initialize it in an existing clone before running Gradle:
 
 ```bash
-git submodule update --init --recursive -- tooling/bluemap-addon-toolkit
+git submodule update --init --recursive -- \
+  tooling/bluemap-addon-toolkit modules/bluemap-athena-resource-models
 ```
 
-The submodule supplies the Gradle convention source. It pins
+The toolkit submodule supplies the Gradle convention source. It pins
 `bluemap-addon-toolkit` `v0.3.0-alpha.1` at commit
 `6cd34a8368cc4ee8628fbe830a90ec5b14960629`; it is build tooling and is not
-packaged in the add-on JAR.
+packaged in the add-on JAR. The Athena model submodule supplies exactly four
+MIT source files. The settings preflight verifies both gitlinks plus the model
+checkout HEAD, clean status, and source tree before compilation.
 
 ## Authoritative review gate
 
@@ -119,10 +129,11 @@ gradle --no-daemon \
 ```
 
 CI reacquires both inputs ephemerally, verifies their exact bytes and the full
-profile/resource contract, and discards them. The build bundles no Chisel or
-Athena code or assets.
+profile/resource contract, and discards them. The add-on source-bundles only
+the four first-party MIT model classes. It bundles no upstream Chisel or Athena
+code or assets and no nested module JAR.
 
-After review and publication, tagged releases will provide production/source
+Tagged releases provide production/source
 JARs, POM, module metadata, and checksums on GitHub Releases and Maven
 coordinates `io.github.jan-guenter:bluemap-chisel-addon:<version>` on GitHub
 Packages. A release tag must equal `v<addon_version>`.

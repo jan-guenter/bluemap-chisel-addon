@@ -5,6 +5,8 @@ The machine-readable artifact lock is
 generated profile is under
 `src/main/resources/bluemap-chisel/profiles/chisel/2.0.1-athena-4.0.6/`, and
 the source/evidence declaration is [provenance/upstreams.json](../provenance/upstreams.json).
+Candidate release identity is recorded separately in
+`provenance/release.json`; it is not packed into the add-on JAR.
 
 ## Exact runtime evidence
 
@@ -30,13 +32,22 @@ bytes.
 
 ## Implementation source
 
-The sole implementation-code provenance is the owner-authored MIT
+The implementation source originates in the owner-authored MIT
 [BlueMap Chipped Add-on](https://github.com/jan-guenter/bluemap-chipped-addon)
 at tag `v0.1.0-alpha.1`, commit
 `c474a82b6bfd1b4173d119cb1e053a5458167e4b`. Its exact-profile activation,
 BlueMap adapter/emitter, CTM and giant selection, reversible fallback, tests,
 and build/release foundation were adapted into a collision-safe Chisel
 namespace and specialized for this closed resource profile.
+
+Version `0.1.0-alpha.2` source-bundles the four pure model classes from the
+released MIT `bluemap-athena-resource-models` `0.1.0-alpha.1` module at commit
+`4a503a63f7f10b7c414c6c1228207a5ba00bfd54`, source tree
+`882689c2f9a0875547f4e30aefd68659103d5046`. That module records their exact
+first-party Chipped origin and exhaustive parity evidence. Its JAR is neither
+installed nor nested. The Chisel-specific emitter, profile, schema admission,
+collision isolation, first-frame texture path, routing, and fallback stay
+local.
 
 No Chisel or Athena implementation source is copied or adapted. The Chisel
 artifact's exact NeoForge descriptor declares `GPLv2`. Source reference
@@ -58,5 +69,6 @@ The CTM mod artifact was evidence-only during research. It is intentionally
 absent from the generator input contract, compile/runtime dependencies,
 activation logic, publication inputs, and packaged output.
 
-This provenance record describes an unreleased implementation. It makes no
-runtime, owner-acceptance, publication, or release-artifact identity claim.
+The accepted `0.1.0-alpha.1` runtime evidence remains the visual baseline. The
+`0.1.0-alpha.2` source-consolidation candidate needs its own clean build and
+publication identity before release.

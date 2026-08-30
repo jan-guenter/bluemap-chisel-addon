@@ -15,6 +15,8 @@ active blockstate/model/texture schema gate
         |
 439 immutable definitions (306 CTM + 133 giant)
         |
+four commit-pinned pure model classes
+        |
 bounded renderer -> reversible emission -> stock fallback
 ```
 
@@ -41,6 +43,12 @@ The CTM mod artifact does not participate in generation, compilation,
 activation, rendering, or packaging.
 
 ## CTM renderer
+
+The pure `CtmTextureRole`, `CtmSelector`, `CtmConnections`, and `CubeFace`
+classes compile from the exact released `bluemap-athena-resource-models`
+source tree. The module has no entrypoint or installed runtime. Chisel's
+emitter, profile, active-resource admission, collision isolation, routing,
+first-frame texture handling, and fallback remain in this add-on.
 
 For each visible cube face, the CTM renderer samples exactly eight neighbors
 in that face's local plane. A connection requires the same native block ID and
