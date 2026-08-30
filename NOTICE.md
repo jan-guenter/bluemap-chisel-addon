@@ -8,6 +8,11 @@ tag `v0.1.0-alpha.1`, commit
 namespace, activation boundary, and render scope for the exact Chisel/Athena
 tuple documented here.
 
+Four pure connected-texture model classes now come from Jan Guenter's MIT
+`bluemap-athena-resource-models` `0.1.0-alpha.1` at commit
+`4a503a63f7f10b7c414c6c1228207a5ba00bfd54`. That module records their exact
+first-party Chipped origin and parity evidence. Its JAR is not included.
+
 This is an unofficial community add-on. It is not affiliated with or endorsed
 by BlueMap, Terrarium, Chisel, Athena, CurseForge, Modrinth, NeoForged,
 Mojang, Microsoft, or the All the Mons project.

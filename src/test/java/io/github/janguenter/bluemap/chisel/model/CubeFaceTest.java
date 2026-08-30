@@ -3,6 +3,8 @@ package io.github.janguenter.bluemap.chisel.model;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import io.github.janguenter.bluemap.resource.athena.model.CtmConnections;
+import io.github.janguenter.bluemap.resource.athena.model.CubeFace;
 import org.junit.jupiter.api.Test;
 
 class CubeFaceTest {

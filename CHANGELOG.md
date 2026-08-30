@@ -1,6 +1,17 @@
 # Changelog
 
-## Unreleased
+## 0.1.0-alpha.2 - 2026-08-30
+
+- Source-bundle the released `bluemap-athena-resource-models`
+  `0.1.0-alpha.1` module at commit
+  `4a503a63f7f10b7c414c6c1228207a5ba00bfd54`.
+- Remove the four local duplicate model sources while retaining the exhaustive
+  256-mask, face-basis, giant-phase, emitter, gallery, and exact-input tests.
+- Fail closed when the module gitlink, index, checkout HEAD, source tree, or
+  worktree differs from the reviewed pin. Keep every Chisel-specific profile,
+  emitter, texture, route, collision, and fallback boundary local.
+
+## 0.1.0-alpha.1 - 2026-08-13
 
 - Add the initial exact Chisel `2.0.1+mc1.21.1` plus Athena `4.0.6` profile
   for All the Mons 1.2.0.
@@ -27,5 +38,4 @@
   and the lightweight agent-browser sanity check.
 - Record owner visual acceptance of the exact candidate on 2026-08-13.
 
-Publication and immutable release identity remain pending; this section records
-the accepted release candidate, not a published release.
+This section records the accepted and published `0.1.0-alpha.1` baseline.

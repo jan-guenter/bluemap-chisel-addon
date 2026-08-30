@@ -1,9 +1,20 @@
 # Release procedure
 
-No release exists yet. Complete every gate below before changing the status
-from unreleased or recording a production JAR identity.
+Version `0.1.0-alpha.1` is released. Complete every gate below before releasing
+the `0.1.0-alpha.2` source-consolidation candidate or recording its production
+JAR identity.
 
 ## Authoritative clean gate
+
+Initialize both exact source submodules first:
+
+```bash
+git submodule update --init --recursive -- \
+  tooling/bluemap-addon-toolkit modules/bluemap-athena-resource-models
+```
+
+The settings trust preflight must accept the committed and indexed gitlinks,
+checkout HEADs, clean worktrees, and the Athena module source tree.
 
 Pull-request CI is the authoritative clean build. It must reacquire only the
 two exact third-party inputs, verify their byte identities, check deterministic
@@ -39,7 +50,7 @@ actually observed. Do not substitute a locally rebuilt JAR after staging.
 
 Before tagging:
 
-1. Confirm the reviewed commit, clean repository, version, changelog,
+1. Confirm the reviewed commit, recursively clean repository, version, changelog,
    provenance, exact generated profile, and CI result.
 2. Confirm the staged JAR is byte-identical to the intended release asset and
    record its size and cryptographic digests.
