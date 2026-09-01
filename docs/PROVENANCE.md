@@ -49,6 +49,13 @@ installed nor nested. The Chisel-specific emitter, profile, schema admission,
 collision isolation, first-frame texture path, routing, and fallback stay
 local.
 
+Version `0.1.0-alpha.3` also source-bundles the four integration primitives
+from the MIT `bluemap-addon-adapter-api` `0.1.0-alpha.2` module at commit
+`e81f08bc4bfbf02d810ec8949a019130e2e61634`, source tree
+`2f974c9bb2ba13888d69682f86f30f58922d30eb`. Runtime identity, registry
+admission, resource-extension construction, and synthetic dispatch use these
+classes. The standalone module JAR is neither installed nor nested.
+
 No Chisel or Athena implementation source is copied or adapted. The Chisel
 artifact's exact NeoForge descriptor declares `GPLv2`. Source reference
 `b399d0f` is retained only as a reference because its source archive contains
@@ -69,6 +76,7 @@ The CTM mod artifact was evidence-only during research. It is intentionally
 absent from the generator input contract, compile/runtime dependencies,
 activation logic, publication inputs, and packaged output.
 
-The accepted `0.1.0-alpha.1` runtime evidence remains the visual baseline. The
-`0.1.0-alpha.2` source-consolidation candidate needs its own clean build and
-publication identity before release.
+The accepted `0.1.0-alpha.2` runtime evidence remains the released baseline.
+The combined integration gallery received owner acceptance for the
+`0.1.0-alpha.3` BlueMap 5.23 migration on 2026-09-01. Its clean production JAR
+reproduces the accepted 254,642-byte artifact exactly.

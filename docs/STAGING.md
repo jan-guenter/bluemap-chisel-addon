@@ -3,6 +3,17 @@
 Status: **accepted on 2026-08-13** for the exact candidate below. Publication
 and immutable release identity remain separate gates.
 
+## 0.1.0-alpha.3 integration acceptance
+
+On 2026-09-01 the owner accepted the Chisel output in the combined All the
+Mons 1.2.0 BlueMap 5.23 integration gallery. The exact locally reproduced
+candidate is `bluemap-chisel-addon-0.1.0-alpha.3.jar`, 254,642 bytes, with
+SHA-256
+`6043a34368dd6fd4d345762121dc99df4cdb23626e367f3f3b1e9b59c12261ef`.
+This migration changes only the BlueMap host adapter and shared-source
+ownership; the bounded raw-render audit below remains the renderer's
+behavioral baseline.
+
 ## Accepted result
 
 - Candidate commit:

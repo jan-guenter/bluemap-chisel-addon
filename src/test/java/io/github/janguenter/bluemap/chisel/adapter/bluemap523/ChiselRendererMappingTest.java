@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: MIT */
-package io.github.janguenter.bluemap.chisel.adapter.bluemap522;
+package io.github.janguenter.bluemap.chisel.adapter.bluemap523;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -19,13 +19,13 @@ class ChiselRendererMappingTest {
     @Test
     void registryAndSyntheticIdsCannotCollideWithChippedAddon() {
         assertEquals("bluemap_chisel:athena_shape",
-                BlueMap522Adapter.RENDERER_KEY.getFormatted());
-        assertEquals(BlueMap522Adapter.RENDERER_KEY, ChiselResourceExtension.SYNTHETIC);
+                BlueMap523Adapter.RENDERER_KEY.getFormatted());
+        assertEquals(BlueMap523Adapter.RENDERER_KEY, ChiselResourceExtension.SYNTHETIC);
         assertEquals("bluemap_chisel:exact_profile",
-                ChiselResourceExtensionType.KEY.getFormatted());
-        assertFalse(BlueMap522Adapter.RENDERER_KEY.getFormatted()
+                BlueMap523Adapter.EXTENSION_KEY.getFormatted());
+        assertFalse(BlueMap523Adapter.RENDERER_KEY.getFormatted()
                 .startsWith("bluemap_chipped:"));
-        assertFalse(ChiselResourceExtensionType.KEY.getFormatted()
+        assertFalse(BlueMap523Adapter.EXTENSION_KEY.getFormatted()
                 .startsWith("bluemap_chipped:"));
     }
 }

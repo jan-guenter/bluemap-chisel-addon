@@ -10,10 +10,11 @@ not part of the root orchestration repository.
 | --- | --- |
 | All the Mons | `1.2.0`, pack commit `c7bb230f21d14d26859d0b92548f089b3a493ad9` |
 | Minecraft / NeoForge / Java | `1.21.1` / `21.1.248` / `21` |
-| BlueMap | backport `5.22-agent.backport-5.22-mc1.21.1-2`, commit `9be321df995a1103808621d529eb72773e719d4d` |
+| BlueMap | feature backport `5.22-feature.backport-5.23-stateless-java-web-server-46`, commit `7e07f4e74ec1e92a6ead9aa1e66054af3e133aac`, API commit `285c9a60eff3ac2b0cab308ce1058d1565be0971` |
 | Chisel | `2.0.1+mc1.21.1`, 8,268,524 bytes, SHA-256 `66ae1f65374a7409af069d5ccde63a338d1754494555b3b5a00f1e862e50e2a6` |
 | Athena | `4.0.6`, 99,944 bytes, SHA-256 `43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5` |
 | Athena model source module | `0.1.0-alpha.1`, commit `4a503a63f7f10b7c414c6c1228207a5ba00bfd54`, source tree `882689c2f9a0875547f4e30aefd68659103d5046` |
+| Adapter API source module | `0.1.0-alpha.2`, commit `e81f08bc4bfbf02d810ec8949a019130e2e61634`, source tree `2f974c9bb2ba13888d69682f86f30f58922d30eb` |
 
 A new pack, BlueMap build, or either changed artifact starts a fresh evidence,
 implementation, and visual-review task.
@@ -48,6 +49,9 @@ implementation, and visual-review task.
   released source module. Keep the Chisel emitter, profile, admission, routing,
   first-frame texture path, and fallback local. Never install or nest the
   module JAR.
+- Compile the four exact Adapter API integration primitives from their released
+  source module. Keep no legacy 5.22 package and never install or nest the
+  module JAR.
 
 ## Validation cadence
 
@@ -56,7 +60,8 @@ gate; do not repeat it locally after small edits:
 
 ```bash
 git submodule update --init --recursive -- \
-  tooling/bluemap-addon-toolkit modules/bluemap-athena-resource-models
+  tooling/bluemap-addon-toolkit modules/bluemap-athena-resource-models \
+  modules/bluemap-addon-adapter-api
 gradle --no-daemon \
   -PchiselJar=/absolute/path/chisel-neoforge-2.0.1+mc1.21.1.jar \
   -PathenaJar=/absolute/path/athena-neoforge-1.21.1-4.0.6.jar \
@@ -64,7 +69,6 @@ gradle --no-daemon \
   generateMetadataFileForAddonPublication verifyPinnedArtifacts
 ```
 
-The implementation remains unreleased until the clean gate, the single
-staging lifecycle in [docs/STAGING.md](docs/STAGING.md), the required quick
-agent-browser sanity check, and owner visual acceptance all succeed. Never
-turn planned or partial evidence into a release or runtime claim.
+The migration remains unpublished until its clean gate and reviewed pull
+request succeed. Never turn planned or partial evidence into a release or
+runtime claim.

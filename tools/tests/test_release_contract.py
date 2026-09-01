@@ -12,64 +12,56 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class ReleaseContractTest(unittest.TestCase):
-    def test_alpha2_candidate_seals_all_publication_payloads(self) -> None:
+    def test_alpha3_candidate_seals_the_accepted_artifact(self) -> None:
         release = json.loads((ROOT / "provenance/release.json").read_text())
 
         self.assertEqual(1, release["schema_version"])
         self.assertEqual("owner-accepted-release-candidate", release["status"])
-        self.assertEqual("0.1.0-alpha.2", release["version"])
-        self.assertEqual("v0.1.0-alpha.2", release["tag"])
+        self.assertEqual("0.1.0-alpha.3", release["version"])
+        self.assertEqual("v0.1.0-alpha.3", release["tag"])
         self.assertEqual(
             {
-                "production_jar": {
-                    "file_name": "bluemap-chisel-addon-0.1.0-alpha.2.jar",
-                    "size": 251_223,
-                    "sha256": "0b4fcb7221d7d0bd103397ed6e61e87cf694f1dffdbf61cd811f7ea592675610",
-                },
-                "sources_jar": {
-                    "file_name": "bluemap-chisel-addon-0.1.0-alpha.2-sources.jar",
-                    "size": 216_727,
-                    "sha256": "2d6c926a1d539a41447cddd4afc1084a51056b3ae5175b285d2e046bf7013302",
-                },
-                "pom": {
-                    "file_name": "bluemap-chisel-addon-0.1.0-alpha.2.pom",
-                    "size": 1_335,
-                    "sha256": "5ba3219033d244a54dd7e359c90526d4237d99199d3b9ce7b2ddfb798df5103c",
-                },
-                "gradle_module": {
-                    "file_name": "bluemap-chisel-addon-0.1.0-alpha.2.module.json",
-                    "size": 2_813,
-                    "sha256": "a5fa28e1334114f6fd30d92f7d54ef8adf4f843117d2090432a8d0aead872cbe",
-                },
+                "file_name": "bluemap-chisel-addon-0.1.0-alpha.3.jar",
+                "size": 254_642,
+                "sha256": "6043a34368dd6fd4d345762121dc99df4cdb23626e367f3f3b1e9b59c12261ef",
+                "accepted_date": "2026-09-01",
+                "local_reproduction_is_byte_exact": True,
             },
-            release["final_release_artifacts"],
+            release["accepted_integration_artifact"],
         )
 
-    def test_alpha2_candidate_records_the_bounded_athena_migration(self) -> None:
+    def test_alpha3_candidate_records_the_source_modules_and_host(self) -> None:
         release = json.loads((ROOT / "provenance/release.json").read_text())
 
         self.assertEqual(
             {
-                "module_repository": "https://github.com/jan-guenter/bluemap-athena-resource-models",
-                "module_version": "0.1.0-alpha.1",
-                "module_tag": "v0.1.0-alpha.1",
-                "module_commit": "4a503a63f7f10b7c414c6c1228207a5ba00bfd54",
-                "module_source_tree": "882689c2f9a0875547f4e30aefd68659103d5046",
-                "removed_local_model_sources": 4,
-                "renderer_or_gallery_behavior_change": False,
+                "repository": "https://github.com/jan-guenter/bluemap-athena-resource-models",
+                "version": "0.1.0-alpha.1",
+                "tag": "v0.1.0-alpha.1",
+                "commit": "4a503a63f7f10b7c414c6c1228207a5ba00bfd54",
+                "source_tree": "882689c2f9a0875547f4e30aefd68659103d5046",
             },
-            release["athena_model_migration"],
+            release["athena_model_module"],
         )
         self.assertEqual(
             {
-                "production_jar_exact_byte_gate": True,
-                "sources_jar_exact_byte_gate": True,
-                "publication_metadata_exact_byte_gate": True,
-                "exact_input_gate": True,
-                "reproducibility_gate": True,
-                "hostile_gitlink_trust_probes": True,
+                "repository": "https://github.com/jan-guenter/bluemap-addon-adapter-api",
+                "version": "0.1.0-alpha.2",
+                "tag": "v0.1.0-alpha.2",
+                "commit": "e81f08bc4bfbf02d810ec8949a019130e2e61634",
+                "source_tree": "2f974c9bb2ba13888d69682f86f30f58922d30eb",
+                "gitlink": "modules/bluemap-addon-adapter-api",
+                "standalone_module_jar": "not-bundled-or-installed",
             },
-            release["verification"],
+            release["adapter_api_migration"],
+        )
+        self.assertEqual(
+            {
+                "bluemap_version": "5.22-feature.backport-5.23-stateless-java-web-server-46",
+                "bluemap_commit": "7e07f4e74ec1e92a6ead9aa1e66054af3e133aac",
+                "bluemap_api_commit": "285c9a60eff3ac2b0cab308ce1058d1565be0971",
+            },
+            release["host"],
         )
 
 

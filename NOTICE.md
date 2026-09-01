@@ -13,6 +13,11 @@ Four pure connected-texture model classes now come from Jan Guenter's MIT
 `4a503a63f7f10b7c414c6c1228207a5ba00bfd54`. That module records their exact
 first-party Chipped origin and parity evidence. Its JAR is not included.
 
+Four BlueMap 5.23 adapter boundary classes come from Jan Guenter's MIT
+`bluemap-addon-adapter-api` `0.1.0-alpha.2` at commit
+`e81f08bc4bfbf02d810ec8949a019130e2e61634`. Its license is bundled separately;
+its standalone JAR is not included.
+
 This is an unofficial community add-on. It is not affiliated with or endorsed
 by BlueMap, Terrarium, Chisel, Athena, CurseForge, Modrinth, NeoForged,
 Mojang, Microsoft, or the All the Mons project.
