@@ -1,57 +1,45 @@
 {
   "schema_version": 1,
   "status": "owner-accepted-release-candidate",
-  "version": "0.1.0-alpha.2",
-  "release_date": "2026-08-30",
+  "version": "0.1.0-alpha.3",
+  "release_date": "2026-09-01",
   "repository": "https://github.com/jan-guenter/bluemap-chisel-addon",
-  "tag": "v0.1.0-alpha.2",
-  "maven_coordinate": "io.github.jan-guenter:bluemap-chisel-addon:0.1.0-alpha.2",
+  "tag": "v0.1.0-alpha.3",
+  "maven_coordinate": "io.github.jan-guenter:bluemap-chisel-addon:0.1.0-alpha.3",
   "inherited_visual_acceptance": {
-    "baseline_version": "0.1.0-alpha.1",
-    "baseline_release_commit": "f9131a5143062e2045cf26823aabb8628bb5d94d",
-    "baseline_release_tree": "6d43cc05ff636ebe603ad8835e7a31287f6eab22",
-    "baseline_production_jar_size": 249972,
-    "baseline_production_jar_sha256": "053e048f9332094571b25b2edc5ddb9a172e1f89c0a65c2f7ceb05e4a946510e",
+    "baseline_version": "0.1.0-alpha.2",
+    "baseline_release_commit": "5c9b600f5c20e27d2229ae204952f9229c118440",
+    "baseline_production_jar_size": 251223,
+    "baseline_production_jar_sha256": "0b4fcb7221d7d0bd103397ed6e61e87cf694f1dffdbf61cd811f7ea592675610",
     "visual_acceptance": true,
-    "scope": "The accepted Chisel renderer and gallery behavior are unchanged; alpha.2 replaces four local pure-model sources with the package-neutral shared Athena source module."
+    "scope": "The accepted Chisel renderer and gallery behavior are unchanged; alpha.3 migrates the host adapter to the exact BlueMap 5.23 feature backport and shared adapter API source module."
   },
-  "final_release_artifacts": {
-    "production_jar": {
-      "file_name": "bluemap-chisel-addon-0.1.0-alpha.2.jar",
-      "size": 251223,
-      "sha256": "0b4fcb7221d7d0bd103397ed6e61e87cf694f1dffdbf61cd811f7ea592675610"
-    },
-    "sources_jar": {
-      "file_name": "bluemap-chisel-addon-0.1.0-alpha.2-sources.jar",
-      "size": 216727,
-      "sha256": "2d6c926a1d539a41447cddd4afc1084a51056b3ae5175b285d2e046bf7013302"
-    },
-    "pom": {
-      "file_name": "bluemap-chisel-addon-0.1.0-alpha.2.pom",
-      "size": 1335,
-      "sha256": "5ba3219033d244a54dd7e359c90526d4237d99199d3b9ce7b2ddfb798df5103c"
-    },
-    "gradle_module": {
-      "file_name": "bluemap-chisel-addon-0.1.0-alpha.2.module.json",
-      "size": 2813,
-      "sha256": "a5fa28e1334114f6fd30d92f7d54ef8adf4f843117d2090432a8d0aead872cbe"
-    }
+  "accepted_integration_artifact": {
+    "file_name": "bluemap-chisel-addon-0.1.0-alpha.3.jar",
+    "size": 254642,
+    "sha256": "6043a34368dd6fd4d345762121dc99df4cdb23626e367f3f3b1e9b59c12261ef",
+    "accepted_date": "2026-09-01",
+    "local_reproduction_is_byte_exact": true
   },
-  "athena_model_migration": {
-    "module_repository": "https://github.com/jan-guenter/bluemap-athena-resource-models",
-    "module_version": "0.1.0-alpha.1",
-    "module_tag": "v0.1.0-alpha.1",
-    "module_commit": "4a503a63f7f10b7c414c6c1228207a5ba00bfd54",
-    "module_source_tree": "882689c2f9a0875547f4e30aefd68659103d5046",
-    "removed_local_model_sources": 4,
-    "renderer_or_gallery_behavior_change": false
+  "athena_model_module": {
+    "repository": "https://github.com/jan-guenter/bluemap-athena-resource-models",
+    "version": "0.1.0-alpha.1",
+    "tag": "v0.1.0-alpha.1",
+    "commit": "4a503a63f7f10b7c414c6c1228207a5ba00bfd54",
+    "source_tree": "882689c2f9a0875547f4e30aefd68659103d5046"
   },
-  "verification": {
-    "production_jar_exact_byte_gate": true,
-    "sources_jar_exact_byte_gate": true,
-    "publication_metadata_exact_byte_gate": true,
-    "exact_input_gate": true,
-    "reproducibility_gate": true,
-    "hostile_gitlink_trust_probes": true
+  "adapter_api_migration": {
+    "repository": "https://github.com/jan-guenter/bluemap-addon-adapter-api",
+    "version": "0.1.0-alpha.2",
+    "tag": "v0.1.0-alpha.2",
+    "commit": "e81f08bc4bfbf02d810ec8949a019130e2e61634",
+    "source_tree": "2f974c9bb2ba13888d69682f86f30f58922d30eb",
+    "gitlink": "modules/bluemap-addon-adapter-api",
+    "standalone_module_jar": "not-bundled-or-installed"
+  },
+  "host": {
+    "bluemap_version": "5.22-feature.backport-5.23-stateless-java-web-server-46",
+    "bluemap_commit": "7e07f4e74ec1e92a6ead9aa1e66054af3e133aac",
+    "bluemap_api_commit": "285c9a60eff3ac2b0cab308ce1058d1565be0971"
   }
 }

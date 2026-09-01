@@ -44,10 +44,10 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Set up Gradle 9.4.0
+      - name: Set up Gradle 9.6.1
         uses: gradle/actions/setup-gradle@9c971963bec38e04b3d30dcc455b5382be2fdbfb # v6.3.0
         with:
-          gradle-version: '9.4.0'
+          gradle-version: '9.6.1'
           cache-read-only: ${{ github.event_name == 'pull_request' }}
 
       - name: Acquire exact ephemeral runtime input
@@ -66,6 +66,7 @@ jobs:
           input_dir="${RUNNER_TEMP}/chisel"
           python3 gallery/generate.py --check
           python3 -m json.tool provenance/upstreams.json >/dev/null
+          python3 -m json.tool provenance/release.json >/dev/null
           (cd gallery && sha256sum --check SHA256SUMS)
           python3 -m unittest discover -s tools/tests -p 'test_*.py'
           gradle --no-daemon \

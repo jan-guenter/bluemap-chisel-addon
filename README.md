@@ -1,27 +1,24 @@
 # BlueMap Chisel Add-on
 
-An exact-profile BlueMap 5.22 add-on for the Athena-backed connected models in
+An exact-profile BlueMap 5.23 add-on for the Athena-backed connected models in
 the Chisel build shipped by All the Mons 1.2.0.
 
 ## Status and compatibility
 
-Version `0.1.0-alpha.2` is the source-consolidation candidate for the same
-owner-accepted exact tuple. Version `0.1.0-alpha.1` remains the released visual
-baseline. Pull-request CI, the isolated runtime lifecycle, the canonical
-raw-render audit, the agent browser sanity check, and owner visual acceptance
-all succeeded on 2026-08-13.
+Version `0.1.0-alpha.3` is the owner-accepted BlueMap 5.23 migration candidate.
+Version `0.1.0-alpha.2` remains the released source-consolidated baseline. The
+combined ATMons 1.2.0 integration gallery received owner acceptance on
+2026-09-01.
 
-The accepted candidate is commit
-`97801303993ebd6e9ad718c94c6bc6a9a7376060` (tree
-`2e422c0efda8b7e8484f6bce84cc20460cbcae55`). Its authoritative CI production
-JAR is 249,972 bytes with SHA-256
-`053e048f9332094571b25b2edc5ddb9a172e1f89c0a65c2f7ceb05e4a946510e`.
+The accepted production JAR is 254,642 bytes with SHA-256
+`6043a34368dd6fd4d345762121dc99df4cdb23626e367f3f3b1e9b59c12261ef`.
+The local clean release build reproduced those bytes exactly.
 
-The candidate changes source ownership only. It compiles the four pure Athena
-connection and face classes from the released, commit-pinned
-`bluemap-athena-resource-models` `0.1.0-alpha.1` source module. The emitter,
-exact profile, resource admission, collision isolation, routing, fallback, and
-first-frame texture behavior remain local and unchanged.
+The candidate keeps the four pure Athena model sources and adds the four exact
+integration primitives from the commit-pinned `bluemap-addon-adapter-api`
+`0.1.0-alpha.2` source module. The emitter, exact profile, resource admission,
+collision isolation, routing, fallback, and first-frame texture behavior remain
+local and unchanged.
 
 The only supported input tuple is:
 
@@ -32,8 +29,9 @@ The only supported input tuple is:
   SHA-256
   `43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5`;
 - Minecraft `1.21.1`, NeoForge `21.1.248`, Java `21`;
-- BlueMap backport `5.22-agent.backport-5.22-mc1.21.1-2` at commit
-  `9be321df995a1103808621d529eb72773e719d4d`.
+- BlueMap feature backport `5.22-feature.backport-5.23-stateless-java-web-server-46`
+  at commit `7e07f4e74ec1e92a6ead9aa1e66054af3e133aac`, API commit
+  `285c9a60eff3ac2b0cab308ce1058d1565be0971`.
 
 The route begins inactive. It activates only when both installed JARs match
 their pinned byte identities and the active owned resources retain the exact
@@ -105,14 +103,15 @@ Initialize it in an existing clone before running Gradle:
 
 ```bash
 git submodule update --init --recursive -- \
-  tooling/bluemap-addon-toolkit modules/bluemap-athena-resource-models
+  tooling/bluemap-addon-toolkit modules/bluemap-athena-resource-models \
+  modules/bluemap-addon-adapter-api
 ```
 
 The toolkit submodule supplies the Gradle convention source. It pins
 `bluemap-addon-toolkit` `v0.3.0-alpha.1` at commit
 `6cd34a8368cc4ee8628fbe830a90ec5b14960629`; it is build tooling and is not
-packaged in the add-on JAR. The Athena model submodule supplies exactly four
-MIT source files. The settings preflight verifies both gitlinks plus the model
+packaged in the add-on JAR. The Athena and Adapter API submodules each supply
+exactly four MIT source files. The settings preflight verifies every gitlink,
 checkout HEAD, clean status, and source tree before compilation.
 
 ## Authoritative review gate
@@ -129,9 +128,9 @@ gradle --no-daemon \
 ```
 
 CI reacquires both inputs ephemerally, verifies their exact bytes and the full
-profile/resource contract, and discards them. The add-on source-bundles only
-the four first-party MIT model classes. It bundles no upstream Chisel or Athena
-code or assets and no nested module JAR.
+profile/resource contract, and discards them. The add-on source-bundles the
+eight declared first-party MIT model and adapter classes. It bundles no Chisel
+or Athena code or assets and no nested module JAR.
 
 Tagged releases provide production/source
 JARs, POM, module metadata, and checksums on GitHub Releases and Maven

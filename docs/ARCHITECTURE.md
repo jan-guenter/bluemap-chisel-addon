@@ -7,7 +7,7 @@ required configuration.
 ```text
 BlueMap add-on entrypoint
         |
-collision-safe BlueMap 5.22 adapter IDs
+collision-safe BlueMap 5.23 adapter IDs
         |
 exact Chisel + Athena artifact gate
         |

@@ -1,6 +1,6 @@
 # ADR 0001: adapt MIT source without a shared runtime
 
-Status: accepted for the unreleased Chisel implementation.
+Status: accepted for the Chisel implementation.
 
 ## Context
 
@@ -8,7 +8,7 @@ The owner-selected implementation strategy is to adapt the existing MIT
 [BlueMap Chipped Add-on](https://github.com/jan-guenter/bluemap-chipped-addon)
 at tag `v0.1.0-alpha.1`, commit
 `c474a82b6bfd1b4173d119cb1e053a5458167e4b`. That project already provides the
-exact-profile activation, BlueMap 5.22 adapter, reversible emitter, CTM and
+exact-profile activation, BlueMap adapter, reversible emitter, CTM and
 giant selectors, fallback boundaries, packaging, and release mechanics needed
 here.
 

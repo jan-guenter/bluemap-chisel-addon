@@ -14,7 +14,8 @@ import io.github.janguenter.bluemap.chisel.activation.ChiselRuntime;
 public final class BlueMap523Adapter {
 
     private static final ChiselRuntime RUNTIME = ChiselRuntime.INSTANCE;
-    static final Key RENDERER_KEY = Key.parse("bluemap_chisel:athena_shape");
+    static final Key RENDERER_KEY =
+            Key.parse("bluemap_chisel:athena_shape");
     static final Key EXTENSION_KEY = Key.parse("bluemap_chisel:exact_profile");
     private static final BlockRendererType RENDERER = new BlockRendererType.Impl(
             RENDERER_KEY,

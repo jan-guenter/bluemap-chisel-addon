@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0-alpha.3 - 2026-09-01
+
+- Migrate the adapter boundary to the exact BlueMap 5.23 feature backport.
+- Compile the four exact Adapter API `0.1.0-alpha.2` sources from their pinned
+  gitlink and bundle their MIT license, but not the standalone module JAR.
+- Preserve the accepted Chisel renderer, profile, gallery, and Athena source
+  module behavior in the reviewed 254,642-byte production JAR, SHA-256
+  `6043a34368dd6fd4d345762121dc99df4cdb23626e367f3f3b1e9b59c12261ef`.
+
 ## 0.1.0-alpha.2 - 2026-08-30
 
 - Source-bundle the released `bluemap-athena-resource-models`

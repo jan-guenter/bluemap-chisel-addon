@@ -9,5 +9,5 @@ An artifact, active-schema, resource, or registry mismatch keeps the complete
 partial output and delegates that whole block to BlueMap's original renderer.
 No legacy, relaxed, or partial-version fallback profile is maintained.
 
-The current implementation is unreleased and should not be treated as an
-operational rollback artifact.
+Use an immutable published release as the rollback artifact. Do not use an
+unpublished candidate build for operational rollback.

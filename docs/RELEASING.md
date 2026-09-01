@@ -1,8 +1,7 @@
 # Release procedure
 
-Version `0.1.0-alpha.1` is released. Complete every gate below before releasing
-the `0.1.0-alpha.2` source-consolidation candidate or recording its production
-JAR identity.
+Version `0.1.0-alpha.2` is released. Complete every gate below before releasing
+the `0.1.0-alpha.3` BlueMap 5.23 migration candidate.
 
 ## Authoritative clean gate
 
@@ -10,11 +9,12 @@ Initialize both exact source submodules first:
 
 ```bash
 git submodule update --init --recursive -- \
-  tooling/bluemap-addon-toolkit modules/bluemap-athena-resource-models
+  tooling/bluemap-addon-toolkit modules/bluemap-athena-resource-models \
+  modules/bluemap-addon-adapter-api
 ```
 
 The settings trust preflight must accept the committed and indexed gitlinks,
-checkout HEADs, clean worktrees, and the Athena module source tree.
+checkout HEADs, clean worktrees, and both module source-tree pins.
 
 Pull-request CI is the authoritative clean build. It must reacquire only the
 two exact third-party inputs, verify their byte identities, check deterministic
@@ -60,3 +60,11 @@ Before tagging:
 The tag workflow may then rebuild from the exact two inputs, publish immutable
 GitHub prerelease assets and matching GitHub Packages coordinates, and deploy
 nothing. Never move a published tag or replace a release asset.
+
+## 0.1.0-alpha.3 acceptance record
+
+On 2026-09-01, the owner accepted the Chisel area in the combined ATMons 1.2.0
+BlueMap 5.23 integration gallery. The exact accepted production JAR is 254,642
+bytes with SHA-256
+`6043a34368dd6fd4d345762121dc99df4cdb23626e367f3f3b1e9b59c12261ef`.
+The local clean release build reproduced those bytes exactly.
